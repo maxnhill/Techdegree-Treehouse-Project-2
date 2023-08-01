@@ -1,22 +1,5 @@
 # Basketball Team Stats Tool
-In this project you will be writing a program that reads from the "constants" data (`PLAYERS` and `TEAMS`) in `constants.py`. This data will need to be translated into a new collection of your choosing and the fields need to be changed to something that makes more sense for Python to do its comparisons.
+This is a Python program for a basketball game statistics tool. The program begins by cleaning a list of player dictionaries that contain information such as player names, guardians, experience, and height. The cleaned list is then used to create balanced teams of six players each. The program has a function that extracts player names from the teams, and another function that displays statistics for a selected team.
 
 
-**NOTE**: Python has no concept of actual constants like some other languages out there. But it is a convention in Python to treat ALL CAPS variables as if they are in-fact constants.
-
-
-**Steps to get started:**
-
-1. Create a new empty script file called `app.py` or `application.py`
-
-2. Inside this new file, you will want a Dunder Main statement:
-   For a refresh on Dunder Main:
-   https://teamtreehouse.com/library/understanding-dunder-main-main
-
-3. Any print statements or function calls you will want to be inside Dunder Main or inside a main function call which is nested inside Dunder Main.
-   If you need a refresh, check out the supplied Project 1 files/workspace for an example.
-   
-
-
-If you get stuck, try to work through the problem. Sometimes it helps to try to write/draw out your steps on paper in the order your program should run in and solve each step 1 at a time. If you are still stuck be sure to reach out in the Python Techdegree #unit-02 Slack channel.
-
+To use the program, run the basketball_tool() function. This will display a menu with two options: A) Display Team Stats and B) Quit. Selecting option A will prompt the user to pick a team from the list of available teams. After selecting a team, the program will display the statistics for the selected team, including the total number of players, a list of player names, and some additional information. Selecting option B will exit the program.
